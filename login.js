@@ -70,3 +70,4 @@ function loginFunction() {
 
         });
 }
+console.log(sessionStorage.getItem('login'));

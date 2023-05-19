@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="/profile.css">
 </head>
 
 <body>
     <div class="container">
 
         <div class="sidebar">
-            <img class="logo" src="img/logo.svg" alt="logo">
+            <input type="checkbox" id="openmenu"/>
+            <label for="openmenu"><img class="logo" src="img/logo.svg" alt="logo" style="cursor: pointer;"></label>
+            <div class="logout">
+                <button type="button" onclick="logoutFunction()">Log out</button>
+            </div>
             <a class="icon" href="#home"><img src="img/Home.svg" alt="Home"></a>
             <a class="icon" href="#notification"><img src="img/Notifications.svg" alt=""></a>
             <a class="icon" href="#calendar"><img src="img/Calendar.svg" alt=""></a>
@@ -53,7 +57,7 @@
             <div class="edit">
                 <form action="">
                     <div class="title1">
-                        <h1>Edit Profile</h1>
+                        <h1 style="width: 50%;">Edit Profile</h1>
                         <img src="img/logo.svg" alt="">
                     </div>
 
@@ -63,25 +67,25 @@
                         <div class="insert-form">
                             <div class="div-name1">
                                 <h2>First name</h2>
-                                <input type="text" placeholder="First name">
+                                <input type="text" placeholder="First name" id="fname" class="input-form">
                             </div>
                             <div class="div-name1">
                                 <h2>Last name</h2>
-                                <input type="text" placeholder="Last name">
+                                <input type="text" placeholder="Last name" id="lname"class="input-form">
                             </div>
                         </div>
 
                         <div class="insert-form">
                             <h2>Email</h2>
-                            <input type="email" name="email" id="inemail">
+                            <input type="email" name="email" id="inemail"class="input-form">
                         </div>
                         <div class="insert-form">
                             <h2>Address</h2>
-                            <input type="text" placeholder="123 Tran Phu street....">
+                            <input type="text" placeholder="123 Tran Phu street...." id="address"class="input-form">
                         </div>
                         <div class="insert-form">
                             <h2>Contact number</h2>
-                            <input type="tel" name="phonenum" id="phonenum">
+                            <input type="tel" name="phonenum" id="phonenum" itemid="phone"class="input-form">
                         </div>
                         <div class="insert-form">
 
@@ -97,7 +101,7 @@
                     </div>
                     <div class="button">
                         <input type="reset" name="Cancel" id="cancel" value="Cancel">
-                        <input type="button" name="Save" id="save" value="Save" style="background-color: #e76a10;">
+                        <input type="button" name="Save" id="save" value="Save" style="background-color: #e76a10;" onclick="saveFunction()">
                     </div>
                 </form>
             </div>

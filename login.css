@@ -33,17 +33,19 @@ body {
 .form{
     padding: 5% 5%;
     float: left;
-    width: 30%;
+    width: 40%;
+    height: 100%;
 }
 form{
-    width: 478px;
+    width: 100%;
+    height: 100%;
 }
 form, input{
     font-size: 23px;
 }
 .forgot{
-    padding-left:45%;
-    font-size: 20px;
+    padding-left:20%;
+    font-size: 18px;
 }
 .text-form{
     margin-bottom: 20px;
@@ -93,7 +95,7 @@ div p {
     justify-content: center;
 }
 .signup p{
-    padding: 10px;
+    padding: 5px;
 }
 .field-icon {
   float: right;
@@ -111,7 +113,7 @@ div p {
 } */
 .image{
     float: right;
-    width: 70%;
+    width: 60%;
     height: 100%;
 
 }
@@ -120,5 +122,6 @@ div p {
     height: 100%;
     width: 50%;
     background-color: #C0DBEA;
+    border-radius: 10px;
 
 }
