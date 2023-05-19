@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <img class="logo" src="img/logo.svg" alt="logo">
+            <a class="icon" href="#home"><img src="img/Home.svg" alt="Home"></a>
+            <a class="icon" href="#notification"><img src="img/Notifications.svg" alt=""></a>
+            <a class="icon" href="#calendar"><img src="img/Calendar.svg" alt=""></a>
+            <a class="icon" href="#chart"><img src="img/Show chart.svg" alt=""></a>
+            <a class="icon" href="#persion"><img src="img/Person.svg" alt=""></a>
+
+            <a class="img" href="#setting"><img src="img/Group 1 setting.svg" alt="" onclick="showMenu()"></a>
+        </div>
+        <div class="center">
+
+
+            <div class="menu">
+                <div class="title">
+                    <img src="img/Keyboar.svg" alt=""><a href="#">Setting</a></label>
+                </div>
+                <div class="selection">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/Edit.svg" alt="">Edit Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"> <img src="img/Notifications.svg" alt="">Notification</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/Log.svg" alt="">Security</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/Settings.svg" alt="">Appearance</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/Vector.svg" alt="">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="edit">
+                <form action="">
+                    <div class="title1">
+                        <h1>Edit Profile</h1>
+                        <img src="img/logo.svg" alt="">
+                    </div>
+
+                    <div class="form">
+
+
+                        <div class="insert-form">
+                            <div class="div-name1">
+                                <h2>First name</h2>
+                                <input type="text" placeholder="First name">
+                            </div>
+                            <div class="div-name1">
+                                <h2>Last name</h2>
+                                <input type="text" placeholder="Last name">
+                            </div>
+                        </div>
+
+                        <div class="insert-form">
+                            <h2>Email</h2>
+                            <input type="email" name="email" id="inemail">
+                        </div>
+                        <div class="insert-form">
+                            <h2>Address</h2>
+                            <input type="text" placeholder="123 Tran Phu street....">
+                        </div>
+                        <div class="insert-form">
+                            <h2>Contact number</h2>
+                            <input type="tel" name="phonenum" id="phonenum">
+                        </div>
+                        <div class="insert-form">
+
+                            <h2>City</h2>
+                            <select name="sity" id="city">
+                                <option value="hanoi">HaNoi</option>
+                                <option value="danang">DaNang</option>
+                                <option value="hcm">HCM</option>
+                                <option value="hue">Hue</option>
+                                <option value="quangngai">QuangNgai</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="reset" name="Cancel" id="cancel" value="Cancel">
+                        <input type="button" name="Save" id="save" value="Save" style="background-color: #e76a10;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

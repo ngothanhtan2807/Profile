@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+.sidebar {
+    width: 120px;
+    height: 100%;
+    background-color: #FFC297;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+}
+
+.logo {
+    display: block;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.icon img{
+    height: 60px;
+    /* width: 60px; */
+    margin-top: 38%;
+    width: 100%;
+}
+.img img{
+    height: 60px;
+    margin-top: 156%;
+    width: 100%;
+}
+.center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.menu{
+    /* display: none; */
+    padding-left: 10%;
+    padding-top: 5%;
+    height: 96vh;
+    width: 400px;
+    border-right: 2px solid black;
+    margin: 0;
+    font-size: 25px;
+}
+.menu .selection{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.selection ul li{
+    padding-bottom: 20%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.edit{
+    
+    height: 100%;
+    width: 70%;
+    float: right;
+    padding-left: 10%;
+
+}
+    
+.title{
+    display: flex;
+    margin-bottom: 10px;
+    /* position: relative; */
+    
+}
+.title1 img{
+    /* position: absolute; */
+    /* justify-content: right; */
+    /* transform: translate(100%, 100%); */
+    margin-left: 50%;
+}
+/* .title img{
+    left: 0;
+} */
+
+.div-name1{
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding-right: 0;
+}
+.div-name1:first-child{
+    
+    padding-right: 5%;
+}
+input{
+    font-size: 23px;
+}
+input[type="text"], input[type="email"], input[type="tel"]{
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+}
+select{
+    height: 50px;
+    width: 40%;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.button{
+    padding-top: 5%;
+}
+.button input{
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+}
+.insert-form{
+    height: 100px;
+}
